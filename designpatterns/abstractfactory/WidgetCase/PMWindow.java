@@ -1,4 +1,4 @@
-package designpatterns.abstractfactory;
+package designpatterns.abstractfactory.WidgetCase;
 
 public class PMWindow implements Window {
     @Override

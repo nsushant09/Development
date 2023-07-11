@@ -1,4 +1,4 @@
-package designpatterns.abstractfactory;
+package designpatterns.abstractfactory.WidgetCase;
 
 // implements the operations to create concrete product objects
 public class MotifWF implements WidgetFactory {
