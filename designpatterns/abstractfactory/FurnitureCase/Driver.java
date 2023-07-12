@@ -15,11 +15,11 @@ public class Driver {
 
         switch (input) {
             case 1 -> {
-                furnitureFactory = new ModernFurnitureFactory();
+                furnitureFactory = ModernFurnitureFactory.getInstance();
                 System.out.println("Selected Modern Furniture");
             }
             case 2 -> {
-                furnitureFactory = new VictorianFurnitureFactory();
+                furnitureFactory = VictorianFurnitureFactory.getInstance();
                 System.out.println("Selected Victorian Furniture");
             }
             default -> System.out.println("Invalid Input");

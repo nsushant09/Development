@@ -3,6 +3,7 @@ package RockPaperScissor;
 public class Rock implements Element {
     private static Element instance = null;
 
+    private Rock(){}
     public static Element getInstance() {
         if (instance == null) {
             instance = new Rock();
