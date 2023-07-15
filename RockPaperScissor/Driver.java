@@ -13,9 +13,6 @@ public class Driver {
         Element automatedValue = ElementFactory.getElement(getElementName(valueGenerator.getAutomatedValue()));
 
         Result result = userValue.getResult(automatedValue);
-
-        System.out.println("You chose : " + userValue.getName());
-        System.out.println("System chose : " + automatedValue.getName());
         displayResult(result);
     }
 
