@@ -1,28 +1,28 @@
 package designpatterns.strategy.Duck;
 
 public abstract class Duck {
-    FlyBehaviour flyBehaviour;
-    QuackBehaviour quackBehaviour;
+    public FlyBehaviour flyBehaviour;
+    public QuackBehaviour quackBehaviour;
 
-    abstract void display();
+    protected abstract void display();
 
-    void swim() {
+    public void swim() {
         System.out.println("I'm swimming");
     }
 
-    void performQuack() {
+    public void performQuack() {
         quackBehaviour.quack();
     }
 
-    void performFly() {
+    public void performFly() {
         flyBehaviour.fly();
     }
 
-    void setFlyBehaviour(FlyBehaviour fb) {
+    public void setFlyBehaviour(FlyBehaviour fb) {
         flyBehaviour = fb;
     }
 
-    void setQuackBehaviour(QuackBehaviour qb) {
+    public void setQuackBehaviour(QuackBehaviour qb) {
         quackBehaviour = qb;
     }
 

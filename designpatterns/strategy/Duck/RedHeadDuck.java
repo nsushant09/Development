@@ -7,7 +7,7 @@ public class RedHeadDuck extends Duck {
     }
 
     @Override
-    void display() {
+    protected void display() {
         System.out.println("Displaying Redhead designpatterns.strategy.Duck");
     }
 }

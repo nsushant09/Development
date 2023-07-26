@@ -8,7 +8,7 @@ public class MallardDuck extends Duck {
     }
 
     @Override
-    void display() {
+    protected void display() {
         System.out.println("Displaying Mallard designpatterns.strategy.Duck");
     }
 }
