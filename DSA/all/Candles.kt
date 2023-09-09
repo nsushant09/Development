@@ -1,4 +1,4 @@
-package DSA.hackerrank
+package DSA.all
 
 fun main() {
     println(birthdayCakeCandles(arrayOf(4,4,1,4)))

@@ -1,6 +1,4 @@
-package DSA.hackerrank
-
-import java.util.Arrays
+package DSA.all
 
 fun main() {
     val newTime = convertTime("07:05:45PM")

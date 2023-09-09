@@ -1,4 +1,4 @@
-package DSA.hackerrank
+package DSA.all
 
 import java.util.Arrays
 

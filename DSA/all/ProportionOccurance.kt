@@ -1,6 +1,4 @@
-package DSA.hackerrank
-
-import java.lang.String.format
+package DSA.all
 
 fun main() {
     val arr = arrayOf(-4, 3, -9, 0, 4, 1)

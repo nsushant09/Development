@@ -1,7 +1,6 @@
-package DSA.hackerrank
+package DSA.all
 
 import java.util.Arrays
-import kotlin.math.max
 
 // Performs well on a small list
 fun main() {

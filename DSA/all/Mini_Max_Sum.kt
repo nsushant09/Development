@@ -1,6 +1,4 @@
-package DSA.hackerrank
-
-import kotlin.math.max
+package DSA.all
 
 fun main() {
 

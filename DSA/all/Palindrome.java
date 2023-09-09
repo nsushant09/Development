@@ -1,4 +1,4 @@
-package DSA.hackerrank;
+package DSA.all;
 
 public class Palindrome {
     public static void main(String[] args) {

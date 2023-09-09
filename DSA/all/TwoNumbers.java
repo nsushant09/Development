@@ -1,6 +1,4 @@
-package DSA.hackerrank;
-
-import java.util.LinkedList;
+package DSA.all;
 
 class TwoNumbers {
 

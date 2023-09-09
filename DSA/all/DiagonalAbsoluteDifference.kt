@@ -1,4 +1,4 @@
-package DSA.hackerrank
+package DSA.all
 
 fun diagonalDifference(arr: Array<Array<Int>>): Int {
 

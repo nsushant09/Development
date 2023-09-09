@@ -1,4 +1,4 @@
-package DSA.hackerrank
+package DSA.all
 
 fun main() {
     val n = 6
