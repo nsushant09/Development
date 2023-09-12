@@ -1,8 +1,5 @@
 package DSA.arrays_and_hashing
 
-import java.util.*
-import kotlin.collections.HashMap
-
 fun main(){
     println(topKFrequent(intArrayOf(4, 1, -1, 2, -1, 2, 3), 2).contentToString())
 }
