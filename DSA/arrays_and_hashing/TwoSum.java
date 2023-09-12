@@ -1,5 +1,6 @@
 package DSA.arrays_and_hashing;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class TwoSum {
@@ -23,5 +24,21 @@ public class TwoSum {
         }
 
         return new int[] {-1, -1};
+    }
+
+    public int[] threeSum(int[] nums, int target){
+        Arrays.sort(nums);
+        for(int i = 0; i < nums.length; i++){
+            int low = i + 1;
+            int high = nums.length - 1;
+
+            while(low < high){
+                int current = nums[i] + nums[low] + nums[high];
+                if(current == target)
+                    return
+            }
+
+        }
+        return new int[] {-1,-1};
     }
 }
