@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class TwoSum {
     public static void main(String[] args) {
-
+        System.out.println(Arrays.toString(twoSumTwoPointer(new int[]{1, 2, 3, 4, 5, 6, 7}, 9)));
     }
 
     public int[] twoSum(int[] nums, int target) {
@@ -23,6 +23,23 @@ public class TwoSum {
             }
         }
 
+        return new int[]{-1, -1};
+    }
+
+    public static int[] twoSumTwoPointer(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            int number = nums[left] + nums[right];
+            if (number == target) {
+                return new int[]{left, right};
+            }
+            if (number < target) {
+                left++;
+            } else {
+                right++;
+            }
+        }
         return new int[]{-1, -1};
     }
 
