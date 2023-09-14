@@ -18,6 +18,7 @@ public class ThreeSum {
             if (i == 0 || (i > 0 && nums[i] != nums[i - 1])) {
                 int low = i + 1;
                 int high = nums.length - 1;
+
                 int target = -nums[i];
 
                 while (low < high) {
