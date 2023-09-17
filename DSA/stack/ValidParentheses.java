@@ -16,6 +16,7 @@ public class ValidParentheses {
     static HashMap<Character, Character> parenthesesMap = new HashMap<>();
 
     public static boolean isValid(String s) {
+        if (s.length() % 2 != 0) return false;
 
         Stack<Character> stack = new Stack<>();
         setParenthesesMap();
