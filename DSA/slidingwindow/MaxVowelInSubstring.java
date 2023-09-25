@@ -1,5 +1,8 @@
 package DSA.slidingwindow;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class MaxVowelInSubstring {
 
     public static void main(String[] args) {
@@ -8,6 +11,7 @@ public class MaxVowelInSubstring {
     public static int maxVowels(String s, int k) {
         int maximum = 0;
         int count = 0;
+        Set<String> test = new HashSet<>();
         for(int i = 0; i < k; i++){
             if(isVowel(s.charAt(i))){
                 count++;

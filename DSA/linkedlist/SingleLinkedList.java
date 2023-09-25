@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-public class CustomLinkedList<T> {
+public class SingleLinkedList<T> {
     Node<T> head;
 
     private static class Node<T> {
@@ -48,6 +48,27 @@ public class CustomLinkedList<T> {
         newNode.value = value;
         newNode.next = head;
         head = newNode;
+    }
+
+    public void insertAt(int index, T value) {
+        if (index == 0) {
+            insertAtFirst(value);
+            return;
+        }
+
+        int count = 0;
+        Node<T> temp = head;
+        while (temp != null) {
+            if (count == index - 1) {
+                Node<T> newNode = new Node<>();
+                newNode.value = value;
+                newNode.next = temp.next;
+                temp.next = newNode;
+                break;
+            }
+            count++;
+            temp = temp.next;
+        }
     }
 
     public void remove(T value) {
