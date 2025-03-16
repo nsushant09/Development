@@ -1,6 +1,5 @@
 package designpatterns.strategy.Calculator;
 
-import RockPaperScissor.Scissor;
 
 import java.util.Scanner;
 
